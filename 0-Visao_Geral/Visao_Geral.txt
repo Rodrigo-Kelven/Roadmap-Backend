@@ -1,0 +1,98 @@
+backend-roadmap/
+│
+├── python/
+│   ├── fundamentos/
+│   │   ├── variáveis_e_tipos.py
+│   │   ├── controle_de_fluxo.py
+│   │   ├── funcoes.py
+│   │   └── classes_e_objetos.py
+│   │
+│   ├── bibliotecas/
+│   │   ├── requests/
+│   │   │   ├── exemplos.py
+│   │   │   └── documentacao.md
+│   │   └── pandas/
+│   │       ├── exemplos.py
+│   │       └── documentacao.md
+│   │
+│   └── testes/
+│       ├── unittest/
+│       └── pytest/
+│
+├── flask/
+│   ├── configuracao/
+│   │   ├── configuracao_inicial.py
+│   │   └── .env
+│   │
+│   ├── rotas/
+│   │   ├── rotas_basicas.py
+│   │   └── rotas_avancadas.py
+│   │
+│   ├── modelos/
+│   │   ├── modelos_basicos.py
+│   │   └── modelos_avancados.py
+│   │
+│   └── autenticacao/
+│       ├── jwt.py
+│       └── oauth.py
+│
+├── fastapi/
+│   ├── configuracao/
+│   │   ├── configuracao_inicial.py
+│   │   └── .env
+│   │
+│   ├── rotas/
+│   │   ├── rotas_basicas.py
+│   │   └── rotas_avancadas.py
+│   │
+│   ├── modelos/
+│   │   ├── modelos_basicos.py
+│   │   └── modelos_avancados.py
+│   │
+│   └── autenticacao/
+│       ├── jwt.py
+│       └── oauth.py
+│
+├── docker/
+│   ├── conceitos/
+│   │   ├── o_que_e_o_docker.md
+│   │   └── docker_vs_virtualizacao.md
+│   │
+│   ├── comandos_basicos/
+│   │   ├── docker_comandos.md
+│   │   └── dockerfile_exemplo/
+│   │       └── Dockerfile
+│   │
+│   └── docker_compose/
+│       ├── exemplos.yml
+│       └── explicacao.md
+│
+└── linux/
+    ├── comandos_basicos/
+    │   ├── bash/
+    │   │   ├── comandos_basicos.md
+    │   │   └── scripts_exemplares.sh
+    │   │
+    │   └── gerenciamento_de_pacotes/
+    │       ├── apt.md
+    │       └── yum.md
+    │
+    ├── configuracao/
+    │   ├── ssh/
+    │   │   ├── configuracao_ssh.md
+    │   │   └── chaves/
+    │   │       ├── chave_publica.pub
+    │   │       └── chave_privada
+    │   │
+    │   └── firewall/
+    │       ├── ufw.md
+    │       └── iptables.md
+    │
+    └── monitoramento/
+        ├── ferramentas/
+        │   ├── htop.md
+        │   └── iostat.md
+        │
+        └── logs/
+            ├── analise_de_logs.md
+            └── ferramentas.md
